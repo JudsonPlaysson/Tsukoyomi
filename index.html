@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsukuyomi</title>
+    <link rel="icon"
+        href="https://cdn.iconscout.com/icon/free/png-256/free-sharingan-icon-download-in-svg-png-gif-file-formats--symbol-clan-japan-japanese-culture-solid-style-pack-festival-days-icons-1372465.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="menu">
+        <img class="image" src="./assets/madara.png.jpg" alt="uchiha-madara">
+        <div class="container">
+            <h2>Bem-Vindo ao Tsukuyomi</h2>
+            <img class="image-tsukuyomi" src="./assets/madara-uchiha.gif" alt="madaraUchiha">
+            <button id="botao1" class="mostrar" onclick="mostrarProximo('botao2', event)">Pense em um Número de 0 à
+                100.</button>
+            <button id="botao2" onclick="mostrarProximo('botao3', event)">Multiplique por 3;</button>
+            <button id="botao3" onclick="mostrarProximo('botao4', event)">Some +1;</button>
+            <button id="botao4" onclick="mostrarProximo('botao5', event)">Multiplique por 8;</button>
+            <button id="botao5" onclick="mostrarProximo('botao6', event)">Diminua por 2;</button>
+            <button id="botao6" onclick="mostrarProximo('botao7', event)">Divida por 6;</button>
+            <button id="botao7" onclick="mostrarProximo('botao9', event)">Está preparado para eu ler sua mente? click, olhe no sharingan e, seja manipulado;</button>
+
+            <p id="result"></p>
+
+            <input id="usuario" placeholder="Digite o Resultado!">
+
+            <button id="botao9" onclick="lerMente()">
+                <img id="madara-uchiha" class="image-button" src="./assets/tsu.png" alt="Tsukuyomi">
+            </button>
+
+            <img id="uchiha" src="./assets/uchiha-sharingan.gif" alt="madara-uchiha">
+
+            <a class="reset" href="#" onclick="location.reload();">RESTART</a>
+
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: #000;
+    background: radial-gradient(circle, rgba(0,0,0,0.8) 100%, transparent 100%);
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    right: 20px;
+    top: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(51, 255, 0), blue) 1;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.9);
+}
+
+
+.image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    max-width: 100%;
+
+}
+
+.image-tsukuyomi {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    /* left: 130px; */
+    border-radius: 80px;
+    max-width: 100%;
+}      
+
+#botao1, #botao2, #botao3, #botao4, #botao5, #botao6, #botao7 {
+    width: 550px;
+    height: 150px;
+    background: transparent; /* Gradiente vibrante */
+    border: none; /* Remove borda */
+    border-radius: 50px; /* Bordas arredondadas */
+    color: #fff; /* Cor do texto */
+    cursor: pointer; /* Ícone de "mãozinha" ao passar o mouse */
+    font-size: 30px; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 8px 25px; /* Espaçamento interno */
+    box-shadow: 10px 10px 25px rgba(255, 75, 43, 0.4); /*Adiciona sombra*/
+    transition: transform 0.3s, box-shadow 0.3s; /* Efeitos de hover */
+    top: 28px;
+    position: absolute;
+}
+button:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+    box-shadow: 0 10px 20px rgba(255, 75, 43, 0.6); /* Intensifica a sombra */
+  }
+
+.image-button {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2{
+    top:50px;
+    position:fixed;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+h3{
+    color: white;
+}
+input{
+width: 170px; 
+height: 40px; 
+font-size: 14px;
+font-weight: 600;
+text-align: center; 
+color: #333; 
+background: #f3f3f3; 
+border: 2px solid #000; /* Borda com cor personalizada */
+border-radius: 8px; /* Bordas arredondadas */
+padding: 5px; /* Espaçamento interno */
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Sombra leve */
+position: absolute;
+bottom: 170px;
+display: none;
+}
+
+input::placeholder {
+color: #aaa; /* Cor do placeholder */
+font-style: italic; /* Estiliza o placeholder */
+text-align: center; /* Centraliza o placeholder */
+}
+
+input:focus {
+outline: none; /* Remove o outline padrão */
+border-color:#000; /* Cor da borda ao focar */
+box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4); /* Intensifica a sombra */
+}
+
+
+#botao9, #uchiha {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 90px;
+    cursor: pointer;
+    position: absolute;
+    bottom:50px;
+    left: 235px;
+}
+
+
+button{
+    display: none;
+    margin: 10px;
+}
+button.mostrar{
+    display: block;
+}
+#result{
+    width: 65%;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 50px;
+}
+#uchiha{
+    display: none;
+    position: absolute;
+    left: 42%;
+    bottom: 60px;
+}
+.reset{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    color: #fff;
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+}
+#uchiha{
+    width: 100px;
+    height: 100px;
+}
