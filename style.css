@@ -44,7 +44,7 @@
 }      
 
 #botao1, #botao2, #botao3, #botao4, #botao5, #botao6, #botao7 {
-    width: 90%;
+    width: 100%;
     max-width: 550px;
     height: auto;
     background: transparent; /* Gradiente vibrante */
@@ -83,7 +83,7 @@ h3{
     color: white;
 }
 input{
-width: 170px; 
+width: 150px; 
 height: 40px; 
 font-size: 14px;
 font-weight: 600;
@@ -95,7 +95,9 @@ border-radius: 8px; /* Bordas arredondadas */
 padding: 5px; /* Espaçamento interno */
 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Sombra leve */
 position: absolute;
-bottom: 170px;
+/* left: 100px; */
+top: 65%;
+
 display: none;
 }
 

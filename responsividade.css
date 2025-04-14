@@ -2,7 +2,7 @@
     .container {
         width: 100%;
         height: 56%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -11,16 +11,18 @@
         left: 0;
         object-fit: cover;
     }
-    .image{
+
+    .image {
         height: 44%;
     }
 
     h2 {
         top: 38%;
         font-size: 24px;
-        
+
     }
-    #result{
+
+    #result {
         width: 65%;
         color: #fff;
         font-size: 14px;
@@ -30,6 +32,7 @@
         position: absolute;
         top: 25px;
     }
+
     #botao9 {
         width: 60px;
         height: 60px;
@@ -43,6 +46,7 @@
         bottom: 8px;
         left: 33%;
     }
+
     #uchiha {
         width: 74px;
         height: 74px;
@@ -53,53 +57,81 @@
         border-radius: 90px;
         cursor: pointer;
         position: absolute;
-        bottom:10px;
+        bottom: 10px;
         left: 33%;
     }
-}
-#botao1, #botao2, #botao3, #botao4, #botao5, #botao6, #botao7 {
+    #botao1,
+#botao2,
+#botao3,
+#botao4,
+#botao5,
+#botao6,
+#botao7 {
     width: 90%;
     max-width: 550px;
     height: auto;
-    background: transparent; /* Gradiente vibrante */
-    border: none; /* Remove borda */
-    border-radius: 50px; /* Bordas arredondadas */
-    color: #fff; /* Cor do texto */
-    cursor: pointer; /* Ícone de "mãozinha" ao passar o mouse */
-    font-size: 18px; /* Tamanho do texto */
-    font-weight: bold; /* Texto em negrito */
-    padding: 8px 25px; /* Espaçamento interno */
-    box-shadow: 10px 10px 25px rgba(255, 75, 43, 0.4); /*Adiciona sombra*/
-    transition: transform 0.3s, box-shadow 0.3s; /* Efeitos de hover */
+    background: transparent;
+    /* Gradiente vibrante */
+    border: none;
+    /* Remove borda */
+    border-radius: 50px;
+    /* Bordas arredondadas */
+    color: #fff;
+    /* Cor do texto */
+    cursor: pointer;
+    /* Ícone de "mãozinha" ao passar o mouse */
+    font-size: 18px;
+    /* Tamanho do texto */
+    font-weight: bold;
+    /* Texto em negrito */
+    padding: 8px 25px;
+    /* Espaçamento interno */
+    box-shadow: 10px 10px 25px rgba(255, 75, 43, 0.4);
+    /*Adiciona sombra*/
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Efeitos de hover */
     top: 28px;
     position: absolute;
 }
-input{
-    width: 110px; 
-    height: 40px; 
+
+input {
+    width: 110px;
+    height: 40px;
     font-size: 10px;
     font-weight: 600;
-    text-align: center; 
-    color: #333; 
-    background: #f3f3f3; 
-    border: 2px solid #2110db; /* Borda com cor personalizada */
-    border-radius: 8px; /* Bordas arredondadas */
-    padding: 5px; /* Espaçamento interno */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    text-align: center;
+    color: #333;
+    background: #f3f3f3;
+    border: 2px solid #2110db;
+    /* Borda com cor personalizada */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    padding: 5px;
+    /* Espaçamento interno */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    /* Sombra leve */
     position: absolute;
     bottom: 95px;
     display: none;
     left: 28%;
-    }
-    
-    input::placeholder {
-    color: #000; /* Cor do placeholder */
-    font-style: italic; /* Estiliza o placeholder */
-    text-align: center; /* Centraliza o placeholder */
-    }
-    
-    input:focus {
-    outline: none; /* Remove o outline padrão */
-    border-color:#000; /* Cor da borda ao focar */
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4); /* Intensifica a sombra */
-    }
+}
+
+input::placeholder {
+    color: #000;
+    /* Cor do placeholder */
+    font-style: italic;
+    /* Estiliza o placeholder */
+    text-align: center;
+    /* Centraliza o placeholder */
+}
+
+input:focus {
+    outline: none;
+    /* Remove o outline padrão */
+    border-color: #000;
+    /* Cor da borda ao focar */
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
+    /* Intensifica a sombra */
+}
+}
+
